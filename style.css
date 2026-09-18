@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162e;
+    --fundo-senha: #00244e;
+    --fundo-texto: #001eff;
+    --borda: #0075ff;
+    --roboto: 'roboto', sans-serif;
+    --roboto-mono: 'roboto mono', monospace:
+}
+
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+}
